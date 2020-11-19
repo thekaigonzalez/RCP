@@ -1,0 +1,2 @@
+# RCP
+The RCP Foundation Is A Non-Profit organization made to have the comfort of a terminal made across platform. Roe's command prompt is being developed by 2-3 Individuals, The Main Language Is Python.  Roe's command prompt contains some "Extensions" Or, Packages, Implemented by The Developer KaiF. If you want to download the app, download it by joining the Server On The MultiPlatform communication Service Discord.
