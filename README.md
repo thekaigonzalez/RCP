@@ -1,10 +1,3 @@
-Credits:
-
-Developers: KaiF#4397, Roe#9788
-
-the txt files are just so you can look at the code of it lol
-the exe file is the finished version
-
 delete this file after reading
 
 # FAQ *(people will ask this i know it but its not frequently asked yet)*
@@ -13,7 +6,7 @@ Q: Is this a virus? A: No RCP is not a virus if you would like us to make a viru
 # Roe's Command Prompt
 Roe's Command Prompt (RCP)
 Is a Basic Terminal-Based Product Based Off of window's Command Prompt.
-RCP Uses The **time**, **sys**, **os** Modules. There are so many things you can do with RCP, Including the API! The API is used to make extensions, Packages, And Side-Tools.
+RCP Uses The **time**, **sys**, **os** Modules. There are so many things you can do with RCP, Including the API! The API is used to make extensions, Packages, And Side-Tools. (only for people who have python)
 If you would like to contribute To the project let us know on discord! Thanks!
 
 # Lore 
