@@ -33,7 +33,7 @@ while True: # So The program doesnt stop when user types it incorrectly
         print('\nPut what you want to suggest into the chat')
         si = input('')
         print('Okay\n')
-        suggesthook = Webhook('https://discord.com/api/webhooks/779065464755585055/kW9LyVpEvdJUu7QaObd-4u63RbJMqrDRNjLWwBEY5jyLWVa4hgVOPyfq2P5DdiHOBJMf')
+        suggesthook = Webhook('nice try')
 
         suggesthook.send(si)
     else:
