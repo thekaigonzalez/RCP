@@ -23,7 +23,7 @@ Roe's command prompt contains some "Extensions" Or, Packages, Implemented by The
 If you want to download the app, download it by joining the Server On The MultiPlatform communication Service Discord. Or use The Github.
 
 # Developer's Contributions
-*roe*
+*Roe*
 -- Added RCP, Original Idea
 -- Name
 -- Lure, Company idea
