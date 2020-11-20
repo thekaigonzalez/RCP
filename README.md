@@ -1,7 +1,7 @@
 delete this file after reading
 
 # FAQ *(people will ask this i know it but its not frequently asked yet)*
-Q: Is this a virus? A: No RCP is not a virus if you would like us to make a virus total ask us in our discord.
+Q: Is this a virus? A: No RCP is not a virus https://www.virustotal.com/gui/file/baebf7123b0989b6b46d8f79b224c770cadb36e4d2d70c1369ac88b8c42a71a3/detection
 
 # Roe's Command Prompt
 Roe's Command Prompt (RCP)
