@@ -30,3 +30,7 @@ If you want to download the app, download it by joining the Server On The MultiP
 -- Packages
 -- Github Idea
 -- Teachings
+
+# Discord Invite Link
+
+https://discord.gg/V5AqtpXQth
