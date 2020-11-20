@@ -7,6 +7,8 @@ the exe file is the finished version
 
 delete this file after reading
 
+# FAQ *(people will ask this i know it but its not frequently asked yet)
+Q: Is this a virus? A: No RCP is not a virus if you would like us to make a virus total ask us in our discord.
 
 # Roe's Command Prompt
 Roe's Command Prompt (RCP)
