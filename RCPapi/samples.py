@@ -2,18 +2,16 @@ from pathlib import Path
 import sys
 import time
 import os
-
 # This is the Roe Command Prompt api. This is used for addons.
 
 class Prompt(object): # This is where all prompt Functionality is stored.
-    def Prompt(self):
-        print('Roe\'s command prompt')
+    def Start():
+        s = input('>>>')
+    def NewCommand(command, values):
         while True:
             a = input('>>>')
-    def NewCommand(command, values):
-        from RCP import a
-        if a.strip() == command():
-            print(values)
+            if a.strip() == command:
+                print(values)
     def Callback(file, call):
         f = Path(file)
         if f.exists():
@@ -40,5 +38,5 @@ class APIReference():
     class Sheet(object):
         s_contents = 'The RCPAPI is a lightweight language built from thr ground up, for speed, time, and emotion. Where does the emotion come in?, I Dont even know'
         s_helpcommand = 'RC_Help'
-
-
+        def BringAll():
+            print('The RCPAPI is a lightweight language built from thr ground up, for speed, time, and emotion. Where does the emotion come in?, I Dont even know, Your new default help command is RC_help')
