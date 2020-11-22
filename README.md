@@ -18,12 +18,16 @@ If you want to download the app, download it by joining the Server On The MultiP
 # Developer's Contributions
 *Roe*
 -- Added RCP, Original Idea
+
 -- Name
+
 -- Lure, Company idea
 
 *KaiF*
 -- Packages
+
 -- Github Idea
+
 -- Teachings
 
 # Discord Invite Link
