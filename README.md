@@ -6,7 +6,7 @@ Q: Is this a virus? A: No RCP is not a virus the virus total is in the discord.
 # Roe's Command Prompt
 Roe's Command Prompt (RCP)
 Is a Basic Terminal-Based Product Based Off of window's Command Prompt.
-RCP Uses The **time**, **os**, and many more Modules! There are so many things you can do with RCP, Including the API! The API is used to make extensions, Packages, And Side-Tools. (only for people who have python)
+RCP Uses Alot Of Modules. There are so many things you can do with RCP, Including the API! The API is used to make extensions, Packages, And Side-Tools. (only for people who have python)
 If you would like to contribute To the project let us know on discord! Thanks!
 
 # Lore 
