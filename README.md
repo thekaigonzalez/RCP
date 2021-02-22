@@ -1,4 +1,4 @@
-# FAQ *(people will ask this i know it but its not frequently asked yet)*
+``# FAQ *(people will ask this i know it but its not frequently asked yet)*
 Q: Is this a virus? A: No RCP is not a virus the virus total is in the discord.
 
 # Roe's Command Prompt
@@ -15,28 +15,110 @@ If you want to download the app, download it by joining the Server On The MultiP
 
 # Developer's Contributions
 *Roe*
+- Added RCP, Original Idea
 
--- Added RCP, Original Idea
+- Name
 
--- Name
-
--- Lure, Company idea
+- Lure, Company idea
 
 *KaiF*
+-  Packages
 
--- Packages
+- Github Idea
 
--- Github Idea
-
--- Teachings
+- Teachings
 
 # Discord Invite Link
 
 https://discord.gg/V5AqtpXQth
 
-# Kai-Builder's note
-Use this app with care. This app can be merged with RCP Original for added features.
+# Changes
+- Actually Started the New Framework Instead of API
+- Changed the File Structure A bit
+- Organized The Structure
+- Added Quickfiles.
+- Added Setup.py To Most Files which needed it.
+
+# Setup
+
+## Setting Up RCP
+Roe's Command Prompt Is a Simple terminal emulator for applications like Python Terminal, Cygwin, etc. . .
+
+Setting Up Is pretty easy and requires minimal effort.
+
+## RCP's Writeup Language
+The RWL (RCP Writeup Language) Is a Beta language Made for configuring RCP.
+
+This document does not go over the default basics of the language, since it is not out yet.
+
+But i will be sure to document it once it is available!
+
+## QuickFile Integration
+This Update/Edition Of RCP Adds Super cool QuickFile Integration.
+
+You can Build, Make, Remove, Or even Publish Quickfiles via The RCP Command Prompt.
+
+## Setting Up the Prompt
+This step really doesn't require much effort. Just download and load the RCP executable.
+
+Ubuntu Distributions are coming Later this January-March 10th.
+
+## Using RCPTools
+To Use the Newly Created RCPTools, Create a Python Script. Create one in the Root directory. Now write the following code.
+```python
+import python.rcp_
+
+SymbolLibrary = python.rcp_.PythonRCPSymbols
+
+print(SymbolLibrary.rcp_printercommand) # Will Print "printer"
+
+print(SymbolLibrary.rcp_rcpcolor) # Returns "color"
+
+# And so on... so forth...
+```
+With the Keywords and Tools provided, You can create certain runtimes for RCP using The STDIN And STDOUT Features.
+
+## Using Quick / Quickfiles
+QuickFiles are simple, Low memory, Base Files created to help ease Rapid production of applications using the `quick` Command via Terminal/Executable.
+
+This Installation/Version of RCP Comes with a Quick Executable Pre-Installed. So your Command Should be...
+```
+"diff\quick.exe"
+```
+Make sure to run it in the Same directory As the RCP executable. This Fires the [Quickfile](Quickfile).
+
+## Quick Cheat Sheet 
+
+- `.quick` : Quick Process
+
+- `cmd: <command>` : Command Process Adder.
+
+- `variable: <name> = <value>` : Variable Declaration.
+
+- `client: <bool>` : Client Check
+
+## RCP Cheat Sheet
+
+- printer
+- cmds
+- commands
+- quote
+- color
 
 ## RCPScript
-RCPScript Utilizes the Customizable Parser Engine c13.1.0
-RCPScript Takes most functionality from it.
+RCP Script is no longer open source.
+
+RCPScript is a general low-level scripting language.
+
+```CustomScript
+if (a == b) {
+    echo Hi!
+}
+
+# Bash Command Sending
+# Bash is a built in keyword for the Current prompt.
+bash send function(ISender, 
+                args) fire {
+                    echo Hello!
+                }
+```

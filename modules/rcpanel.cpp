@@ -13,6 +13,7 @@ void start_app()  {
     welcome:
     std::cout << "Welcome To RCPScript Version 1.0!" << std::endl;
     std::cout << "To get started, Type help. For a list of basic commands, Try commands!" << std::endl;
+    
     std::string keyword;
     while (std::cin >> keyword) {
 
@@ -51,6 +52,9 @@ void start_app()  {
             else {
                 std::cout << "Wrong Password for bash." << std::endl;
             }
+        } el (keyword == "panel") {
+            std::cout << "Fix RCP" << std::endl;
+            std::cout << "" << std::endl;
         }
     }
 }
