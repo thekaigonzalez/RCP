@@ -1,5 +1,3 @@
-delete this file after reading
-
 # FAQ *(people will ask this i know it but its not frequently asked yet)*
 Q: Is this a virus? A: No RCP is not a virus the virus total is in the discord.
 
@@ -17,6 +15,7 @@ If you want to download the app, download it by joining the Server On The MultiP
 
 # Developer's Contributions
 *Roe*
+
 -- Added RCP, Original Idea
 
 -- Name
@@ -24,6 +23,7 @@ If you want to download the app, download it by joining the Server On The MultiP
 -- Lure, Company idea
 
 *KaiF*
+
 -- Packages
 
 -- Github Idea
@@ -33,3 +33,10 @@ If you want to download the app, download it by joining the Server On The MultiP
 # Discord Invite Link
 
 https://discord.gg/V5AqtpXQth
+
+# Kai-Builder's note
+Use this app with care. This app can be merged with RCP Original for added features.
+
+## RCPScript
+RCPScript Utilizes the Customizable Parser Engine c13.1.0
+RCPScript Takes most functionality from it.
