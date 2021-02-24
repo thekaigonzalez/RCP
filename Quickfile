@@ -1,0 +1,20 @@
+# RCP QUICKFILE #
+#               #
+#               #
+#               #
+#               #
+#               #
+# # # # # # # # #
+
+
+client: true
+
+cmd: @echo off
+
+cmd: mkdir python_schema
+
+cmd: cd python_schema
+
+cmd: pyinstaller --onefile
+
+variable: PythonSTANDARD = 3.9
