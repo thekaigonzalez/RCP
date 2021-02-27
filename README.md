@@ -1,4 +1,6 @@
-``# FAQ *(people will ask this i know it but its not frequently asked yet)*
+(As of recent, RCP is undergoing many new features, To stay tuned with the releases, Join the discord @ https://discord.gg/V5AqtpXQth)
+
+# FAQ *(people will ask this i know it but its not frequently asked yet)*
 Q: Is this a virus? A: No RCP is not a virus the virus total is in the discord.
 
 # Roe's Command Prompt
@@ -110,7 +112,7 @@ RCP Script is no longer open source.
 
 RCPScript is a general low-level scripting language.
 
-```CustomScript
+```csharp
 if (a == b) {
     echo Hi!
 }
