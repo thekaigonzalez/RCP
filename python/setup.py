@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='RCP',
-    version='1.0.4',
+    version='1.0.6',
     packages=[''],
     url='https://github.com/Roe-s-Command-Prompt/RCP',
     license='MIT',
