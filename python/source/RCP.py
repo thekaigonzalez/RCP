@@ -12,11 +12,11 @@ hostname = socket.gethostname()
 
 ip_address = socket.gethostbyname(hostname)
 
-current = os.getcwd
+current = os.getcwd()
 print('Thank you For using Roe\'s Command Prompt!')
 print('To start, Type CMDS or Commands.')
 while True:  # So The program doesnt stop when user types it incorrectly
-    a = input('>>>')
+    a = input(current + '>>>')
     if a.strip().lower() == 'cmds':
         print('\nCMDS or Commands -- Shows you the valid commands you can use.\nColor green -- Changes the color to '
               'green.\nColor red -- Changes the color to red.\nColor blue -- Changes the color to blue.\nColor cyan '
@@ -31,7 +31,7 @@ while True:  # So The program doesnt stop when user types it incorrectly
         print('\nCommands or CMDS -- Shows you the valid commands you can use.\nColor green -- Changes the color to '
               'green.\nColor red -- Changes the color to red.\nColor blue -- Changes the color to blue.\nColor cyan '
               '-- Changes the color to cyan.\nColor gray -- Changes the color to gray.\nColor yellow -- Changes the '
-              'color to yellow.\nColor pink -- Changee the color to pink.\nDiscord -- Invites you to the official '
+              'color to yellow.\nColor pink -- Changes the color to pink.\nDiscord -- Invites you to the official '
               'Roe\'s Command Prompt Discord Server.\nExit -- Exits Roe\'s Command Prompt.\nType Commands 2 to see '
               'the second list of commands.\n')
     elif a.strip().lower() == 'commands 2':
@@ -56,10 +56,10 @@ while True:  # So The program doesnt stop when user types it incorrectly
     elif a.strip().lower() == 'printer':
         print('\nStarting Printer..')
         time.sleep(0.9)
-        print('Put what you want to print into the chat:')
-        n = input('')
+        print('Put what you want to print here')
+        n = input('>>')
         print('Put the name of the file in chat you want it to be:')
-        na = input('')
+        na = input('>>')
         a2 = open(na + '.txt', "w")
         a2.write(n)
         a2.close()
@@ -71,9 +71,9 @@ while True:  # So The program doesnt stop when user types it incorrectly
     elif a.strip().lower() == 'exit':
         print('\nExiting..')
         time.sleep(0.9)
-        exit()
+        quit()
     elif a.strip().lower() == 'quote':
-        print('Here you go friend!\n')
+        print('Here you go friend!')
         time.sleep(0.4)
         quotechoices = ['Act as if what you do makes a difference. It does.', 'Success is not final, failure is not '
                                                                               'fatal: it is the courage to continue '
@@ -138,5 +138,18 @@ while True:  # So The program doesnt stop when user types it incorrectly
               "- 1.0v"
               "\n- 1.0.2v")
         print("Say CheckForBetas To Check For any available Beta Editions.")
+    elif a.strip().lower() == "rewrite":
+        print("RCP Rewrite is a new, Improved version of RCP that's just better.")
+        print("""
+        Now Obviously, You get the same features as if you were in this prompt, You just get
+        
+        - More commands
+        - Beta access
+        - More Styles
+        - And many more cool perks!
+        
+        The rewrite should come out soon, Once it does, I'll be sure to document it
+        """)
+
     else:
-        print('\n\aThat is not a valid command.\n')
+        print('That is not a valid command.')
