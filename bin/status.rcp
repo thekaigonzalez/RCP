@@ -1,7 +1,0 @@
-package rcp.client.rcpclient
-
-input function(>>)
-
-if (iostream == hello) do {
-    echo hi
-}
