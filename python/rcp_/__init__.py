@@ -17,7 +17,7 @@ class PythonRCPSymbols:
     rcp_rcpcolor = "color"
 
 
-class quick_make(name):
+class quick_make(Unit):
     @staticmethod
     def GetName(self):
         print(name)
