@@ -3,6 +3,11 @@
 //
 #include <iostream>
 #include <fstream>
+#include <conio.h>
+#include <vector>
+
+#define CTRL(c) ((c) & 037)
+
 // Include Input Streams for optimized Input
 #include "InputStreams.h"
 
@@ -21,23 +26,24 @@ namespace surfer {
     }
 }
 void yate_init() {
-    std::string FileBuffer;
-    char buf = _getch();
-    while (buf != CTRL('s')) {
-        std::cout << buf;
-        if (buf == '\r') {
-            std::cout << "\n";
-        }
-        FileBuffer.push_back(buf);
-        buf = _getch();
+    system("color 3");
+    std::vector<std::string> FileBuffer{};
+    std::string foob;
+    int index = 0;
+    getline(std::cin, foob);
+    while (foob != ":qa!") {
+        FileBuffer.push_back("\n" + foob);
+        getline(std::cin, foob);
     }
     std::cout << "Save Buffer as?" << std::endl;
     std::string bufname;
     std::cin >> bufname;
+    for (int i = 0; i < FileBuffer.size(); ++i) {
+        std::ofstream buffers(bufname, std::ios::app);
+        buffers << FileBuffer[i];
+        buffers.close();
+    }
 
-    std::ofstream buffers(bufname);
-    buffers << FileBuffer;
-    buffers.close();
 }
 
 #endif //SURFER_SURFERCONSOLEHEADER_H

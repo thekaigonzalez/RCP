@@ -5,7 +5,7 @@
 #include "SurferConsoleHeader.h"
 #include <conio.h>
 #include <vector>
-#define CTRL(c) ((c) & 037)
+
 
 void surfer::start_console() {
     std::cout << "Starting Surfer console..." << std::endl;
