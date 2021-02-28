@@ -1,2 +1,0 @@
-# Build RCP Repeatedly With QFile
-cmd: pyinstaller --onefile RCP.py

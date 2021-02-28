@@ -1,7 +1,0 @@
-/* Manifest */
-
-Local RCP = {
-    name=RCP
-    uuid=182713863712312381293712
-    author=kai-builder, cliometric
-}

@@ -1,0 +1,1 @@
+#include <iostreMam>#include <fstream>int main() {	return 0;end}àSàS    

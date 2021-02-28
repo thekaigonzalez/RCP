@@ -1,9 +1,0 @@
-# Start Build
-
-cmd: mkdir python_schematic
-
-cmd: cd python_schematic
-
-cmd: echo FileMake > test.quick
-
-cmd: echo Alright Done!

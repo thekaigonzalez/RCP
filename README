@@ -1,0 +1,57 @@
+RCP DevPanel Branch
+
+The DevPanel brings many new developer features & libraries for RCP.
+
+(THIS BRANCH IS NOT OFFICIALLY APPROVED BY @CLIOMETRIC. IT IS A RCP BINDING LIBRARY FOR DEVELOPING)
+
+
+RCP is a Command-line like Fun application built around creating funner experience, While
+still maintaining The nice simplicity of the Windows command line terminal.
+
+LORE:
+
+The RCP Foundation Is A Non-Profit organization made to have the
+comfort of a terminal made across platform.
+Roe's command prompt is being developed by 2-3 Individuals,
+The Main Language Is Python. Roe's command prompt contains some
+"Extensions" Or, Packages, Implemented by The Developer KaiF.
+If you want to download the app, download it by joining the Server
+On The MultiPlatform communication Service Discord. Or use The Github.
+
+What is RCP?
+
+Roe's Command Prompt (RCP) Is a Basic Terminal-Based Product Based
+Off of Windows Command Prompt. RCP Uses A lot Of Modules.
+There are so many things you can do with RCP, Including the RCP Framework!
+The Framework is used to make extensions, Packages, And Side-Tools.
+(only for people who have python) If you would like
+to contribute To the project let us know on discord! Thanks!
+
+Legal biz
+
+Copyright 2021 Kai-Builder
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------
+These bindings help ease production with using RCP. And give RCP more of a developer corner.
+If you like this project, give it a star! Contribute! PR Are being accepted as long as
+it's being maintained.
+
+FILES:
+I recommend running the @run.config.exe File found in the root directory.
+
+It has all of the build tools you need to get started.
