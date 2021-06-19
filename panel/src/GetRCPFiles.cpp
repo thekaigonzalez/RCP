@@ -71,7 +71,7 @@ int main() {
             std::cout << "This project is open source. Meaning all libraries used can be downloaded by users to replicate & Inspire!" << std::endl;
             std::cout << "I'm Kai-Builder, And I believe in free software. I May not be the most 'Free Hippy' in my life, But i do believe that" << std::endl;
             std::cout << "free things are very great to have in mind. Most of the things I have purchased have been abilities to be able to contribute to the" << std::endl;
-            std::cout << "FSF (Free Software Foundation). I Am the Developer of RCP, YATE, and surfer." << std::endl;
+            std::cout << "FSF (Free Software Foundation). I Am a Developer of RCP, YATE, and surfer." << std::endl;
         }
         else {
             std::ifstream invalid_if_buffer_do(action + ".psc");
